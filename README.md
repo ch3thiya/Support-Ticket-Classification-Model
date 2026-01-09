@@ -32,10 +32,8 @@ The core of this project is a fine-tuned distilbert-base-uncased model, chosen f
 While this version serves as a functional prototype, the following updates are planned:
 
 - Full Dataset Training 
-  Scale training to 100% of the dataset (28k records) using GPU acceleration to improve accuracy and edge-case recognition.
+  Scale training to 100% of the dataset (28k records) using GPU acceleration to improve accuracy and edge case recognition.
 - Model Quantization
   Convert model weights from FP32 → INT8 to reduce latency and memory footprint by up to 4x.
 - LLM RAG Integration  
-  Transition from a simple classifier to a Retrieval Augmented Generation (RAG) system that:
-  1. Classifies the ticket  
-  2. Retrieves a suggested solution from a database
+  Transition from a simple classifier to a Retrieval Augmented Generation (RAG) system.
